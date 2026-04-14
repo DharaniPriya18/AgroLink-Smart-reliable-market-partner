@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 // Restrict CORS to the deployed frontend URL (or localhost in dev)
-const allowedOrigin = process.env.FRONTEND_URL || 'http://https://agro-link-smart-reliable-market-par.vercel.app/:5173';
+const allowedOrigin = process.env.FRONTEND_URL;
 app.use(cors({
   origin: allowedOrigin,
 }));
