@@ -1,0 +1,41 @@
+<svg width="640" height="420" viewBox="0 0 640 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="420" rx="36" fill="url(#bg)"/>
+  <rect x="68" y="64" width="504" height="286" rx="34" fill="white" fill-opacity="0.18" stroke="white" stroke-opacity="0.42"/>
+  <path d="M110 322C148 238 194 138 320 138C446 138 492 238 530 322" stroke="white" stroke-opacity="0.66" stroke-width="8" stroke-linecap="round"/>
+  <path d="M170 322C200 258 234 182 320 182C406 182 440 258 470 322" stroke="white" stroke-opacity="0.34" stroke-width="8" stroke-linecap="round"/>
+  <path d="M130 322H510" stroke="white" stroke-opacity="0.54" stroke-width="8" stroke-linecap="round"/>
+  <path d="M174 322C206 292 250 268 320 268C390 268 434 292 466 322" stroke="#34B966" stroke-opacity="0.9" stroke-width="14" stroke-linecap="round"/>
+  <path d="M148 322C174 300 206 286 252 286" stroke="#67D28E" stroke-opacity="0.86" stroke-width="10" stroke-linecap="round"/>
+  <path d="M492 322C466 300 434 286 388 286" stroke="#67D28E" stroke-opacity="0.86" stroke-width="10" stroke-linecap="round"/>
+  <g fill="#F2FFF7">
+    <path d="M222 120C205 102 198 86 198 66C217 70 232 82 240 100C231 102 225 107 222 120Z"/>
+    <path d="M258 120C275 102 282 86 282 66C263 70 248 82 240 100C249 102 255 107 258 120Z"/>
+    <path d="M320 94C303 75 296 58 296 38C315 42 330 54 338 72C329 74 323 80 320 94Z"/>
+    <path d="M382 128C365 110 358 94 358 74C377 78 392 90 400 108C391 110 385 115 382 128Z"/>
+    <path d="M418 128C435 110 442 94 442 74C423 78 408 90 400 108C409 110 415 115 418 128Z"/>
+  </g>
+  <g stroke="#178744" stroke-width="4.5" stroke-linecap="round">
+    <path d="M240 104V176"/>
+    <path d="M320 72V202"/>
+    <path d="M400 108V186"/>
+  </g>
+  <g fill="#EFFFF3">
+    <path d="M218 304C208 294 202 286 202 274C214 276 224 284 228 294C223 294 220 297 218 304Z"/>
+    <path d="M234 304C244 294 250 286 250 274C238 276 228 284 224 294C229 294 232 297 234 304Z"/>
+    <path d="M306 300C296 290 290 282 290 270C302 272 312 280 316 290C311 290 308 293 306 300Z"/>
+    <path d="M322 300C332 290 338 282 338 270C326 272 316 280 312 290C317 290 320 293 322 300Z"/>
+    <path d="M394 304C384 294 378 286 378 274C390 276 400 284 404 294C399 294 396 297 394 304Z"/>
+    <path d="M410 304C420 294 426 286 426 274C414 276 404 284 400 294C405 294 408 297 410 304Z"/>
+  </g>
+  <g stroke="#1E8D4B" stroke-width="4" stroke-linecap="round">
+    <path d="M226 304V320"/>
+    <path d="M314 300V320"/>
+    <path d="M402 304V320"/>
+  </g>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="640" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E1F7EA"/>
+      <stop offset="1" stop-color="#EEF9F2"/>
+    </linearGradient>
+  </defs>
+</svg>
