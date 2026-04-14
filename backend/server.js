@@ -7,7 +7,12 @@ dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-
+app.use(cors({
+  origin: [
+    "https://agro-link-smart-reliable-market-par.vercel.app",
+    "https://agro-link-smart-reliable-ma-git-c5c3a4-dharanipriya18s-projects.vercel.app"
+  ]
+}));
 // Middleware
 // Restrict CORS to the deployed frontend URL (or localhost in dev)
 const allowedOrigin = process.env.FRONTEND_URL;
