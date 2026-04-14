@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 // Restrict CORS to the deployed frontend URL (or localhost in dev)
-const allowedOrigin = process.env.FRONTEND_URL || 'http://localhost:5173';
+const allowedOrigin = process.env.FRONTEND_URL || 'http://https://agro-link-smart-reliable-market-par.vercel.app/:5173';
 app.use(cors({
   origin: allowedOrigin,
 }));
@@ -91,7 +91,7 @@ app.post('/api/ai', async (req, res) => {
     // Extract JSON response content from LLaMA response
     const aiMessage = data.choices?.[0]?.message?.content || "{}";
     const cleanedMessage = aiMessage.replace(/```json|```/g, "").trim();
-    
+
     let jsonResult;
     try {
       jsonResult = JSON.parse(cleanedMessage);
@@ -122,7 +122,7 @@ app.post('/api/ai', async (req, res) => {
     return res.json(normalized);
   } catch (error) {
     console.error("AI API Error:", error.message);
-    
+
     // Comprehensive fallback response
     return res.status(500).json({
       best_mandi: "Data Unavailable",
